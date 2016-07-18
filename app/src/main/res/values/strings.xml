@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"> Condominio "Las Palmeras" </string>
+    <string name="menu_dat"> Información Personal </string>
+    <string name="menu_datM"> INFORMACION PERSONAL </string>
+    <string name="menu_amb"> Ambientes Compartidos </string>
+    <string name="menu_ambM"> AMBIENTES COMPARTIDOS</string>
+    <string name="menu_obl"> Obligaciones financieras </string>
+    <string name="luz"> LUZ </string>
+
+    <string name="reserva_de_piscina"><u>RESERVA DE PISCINA</u></string>
+
+</resources>

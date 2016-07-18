@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@color/colorPlomillo"
+        android:onClick="fnShowInfoP">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/noun_142455_cc"
+            android:id="@+id/img1"
+            android:layout_below="@+id/v1"/>
+
+        <TextView
+            android:id="@+id/txtdatospersonales"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/menu_dat"
+            android:textStyle="bold|italic"
+            android:textSize="30dp"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hr"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@color/colorPlomillo"
+        android:onClick="fnShowAmbC">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pngambientes"
+            android:id="@+id/img2"
+            android:layout_below="@+id/v1"/>
+
+        <TextView
+            android:id="@+id/ambientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_amb"
+            android:textStyle="bold|italic"
+            android:textSize="30dp"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hr"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@color/colorPlomillo"
+        android:onClick="fnShowOblig">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pngobligaciones"
+            android:id="@+id/img3"
+            android:layout_below="@+id/v1"/>
+
+        <TextView
+            android:id="@+id/obligaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_obl"
+            android:textStyle="bold|italic"
+            android:textSize="30dp"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

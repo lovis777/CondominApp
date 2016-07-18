@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPlomillo"
+        android:onClick="fnShowInfoP">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pngobligaciones"
+            android:id="@+id/img1"
+            android:layout_below="@+id/v1"/>
+
+        <TextView
+            android:id="@+id/txtdatospersonales"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/menu_obl"
+            android:textStyle="bold|italic"
+            android:textSize="22dp"
+            android:layout_toRightOf="@+id/img1"
+            android:gravity="left|center"
+            android:textColor="@color/colorNegro"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hr"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hr"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/luz"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorNegro"
+            android:text="LUZ"
+            android:gravity="top|center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/agua"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorNegro"
+            android:text="AGUA"
+            android:gravity="top|center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/mante"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorNegro"
+            android:text="MANTENIMIENTO"
+            android:gravity="top|center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cuotadepartamen"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorNegro"
+            android:text="CUOTA DEPATAMENTO"
+            android:gravity="top|center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/penalidades"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorNegro"
+            android:text="PENALIDADES"
+            android:gravity="top|center"/>
+    </LinearLayout>
+
+</LinearLayout>
