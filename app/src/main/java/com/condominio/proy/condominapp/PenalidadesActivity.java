@@ -10,6 +10,6 @@ public class PenalidadesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_amb_compartido);
+        setContentView(R.layout.activity_penalidades);
     }
 }

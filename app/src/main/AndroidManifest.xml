@@ -15,11 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".InfoPersonalActivity" />
         <activity android:name=".AmbCompartidoActivity" />
         <activity android:name=".ObligacionesActivity" />
-        <activity android:name=".ambientesCompartidos.PiscinaActivity" />
-        <activity android:name=".AC_PiscinaActivity"></activity>
+        <activity android:name=".AC_PiscinaActivity" />
+        <activity android:name=".LuzActivity" />
+        <activity android:name=".AguaActivity" />
+        <activity android:name=".MantenimientoActivity" />
+        <activity android:name=".CuotaDepaActivity" />
+        <activity android:name=".PenalidadesActivity" />
     </application>
 
 </manifest>

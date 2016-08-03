@@ -7,8 +7,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/colorPlomillo"
-        android:onClick="fnShowInfoP">
+        android:background="@color/colorPlomillo">
 
         <ImageView
             android:layout_width="80dp"
@@ -52,9 +51,10 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="92dp">
+        android:layout_height="92dp"
+        android:onClick="fnShowLuz">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -65,9 +65,10 @@
             android:gravity="top|center" />
     </LinearLayout>
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="80dp"
+        android:onClick="fnShowAgua">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -78,9 +79,10 @@
             android:gravity="top|center"/>
     </LinearLayout>
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="92dp">
+        android:layout_height="92dp"
+        android:onClick="fnShowMant">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -91,9 +93,10 @@
             android:gravity="top|center"/>
     </LinearLayout>
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="92dp">
+        android:layout_height="92dp"
+        android:onClick="fnShowCuotaD">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -104,9 +107,10 @@
             android:gravity="top|center"/>
     </LinearLayout>
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="95dp">
+        android:layout_height="95dp"
+        android:onClick="fnShowPena">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
