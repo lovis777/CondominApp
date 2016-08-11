@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.condominio.proy.condominapp.activity.activitys.NotificacionNueva">
+
+    <TextView
+        android:text="Nombre:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/cordotexto" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spPersNotificacion"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/cordotexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe de Notificacion:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txvNotificacion"
+        style="@style/cordotexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRegNot"
+        style="@style/cordotexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/accentColor"
+        android:text="Registrar" />
+
+</LinearLayout>

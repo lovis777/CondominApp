@@ -8,23 +8,82 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <activity
+            android:name=".activity.activitys.MainActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.activitys.Porteria_Principal"
+            android:label="@string/title_activity_porteria__principal"></activity>
+        <activity
+            android:name=".activity.activitys.Porteria_NuevaVisita"
+            android:label="@string/title_activity_porteria__nueva_visita"></activity>
+        <activity
+            android:name=".activity.activitys.Lista_visita"
+            android:label="@string/title_activity_lista_visita"></activity>
+        <activity
+            android:name=".activity.activitys.PorteriaBorrar"
+            android:label="@string/title_activity_porteria_borrar"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog">
+            <intent-filter>
+                <action android:name="EditaVisita" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.activitys.Registro_Principal"
+            android:label="@string/title_activity_registro__princial"></activity>
+        <activity
+            android:name=".activity.activitys.RegistroPersona"
+            android:label="@string/title_activity_registro_persona"></activity>
+        <activity
+            android:name=".activity.activitys.RegistroVeiculo"
+            android:label="@string/title_activity_registro_veiculo"></activity>
+        <activity
+            android:name=".activity.activitys.ListarPersonas"
+            android:label="@string/title_activity_listar_personas"></activity>
+        <activity
+            android:name=".activity.activitys.Lista_Veiculos"
+            android:label="@string/title_activity_lista__veiculos"></activity>
+        <activity
+            android:name=".activity.activitys.Notificaciones_Principal"
+            android:label="@string/title_activity_notificacion__principal"></activity>
+        <activity
+            android:name=".activity.activitys.NotificacionNueva"
+            android:label="@string/title_activity_notificacion_nueva"></activity>
+        <activity
+            android:name=".activity.activitys.ListaNotificaciones"
+            android:label="@string/title_activity_lista_notificacion"></activity>
+        <activity
+            android:name=".activity.activitys.NotificacionesBorrar"
+            android:label="@string/title_activity_notificacion_borrar"></activity>
+        <activity
+            android:name=".activity.activitys.Reserva_Principal"
+            android:label="@string/title_activity_reserva__principal"></activity>
+        <activity
+            android:name=".activity.activitys.ReservaNueva"
+            android:label="@string/title_activity_reserva_nueva"></activity>
 
-        <activity android:name=".InfoPersonalActivity" />
-        <activity android:name=".AmbCompartidoActivity" />
-        <activity android:name=".ObligacionesActivity" />
-        <activity android:name=".AC_PiscinaActivity" />
-        <activity android:name=".LuzActivity" />
-        <activity android:name=".AguaActivity" />
-        <activity android:name=".MantenimientoActivity" />
-        <activity android:name=".CuotaDepaActivity" />
-        <activity android:name=".PenalidadesActivity" />
+        <activity
+            android:name=".activity.activitys.testeCalendario"
+            android:label="@string/title_activity_teste_calendario"></activity>
+        <activity
+            android:name=".activity.activitys.ListaReserva"
+            android:label="@string/title_activity_lista_reserva"></activity>
+        <activity
+            android:name=".activity.activitys.Inicializacion"
+            android:label="@string/title_activity_inicializacion"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.activitys.LoginSistema"
+            android:label="@string/title_activity_login_sistema"></activity>
+
     </application>
 
 </manifest>

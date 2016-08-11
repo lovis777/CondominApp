@@ -1,12 +1,67 @@
 <resources>
-    <string name="app_name"> Condominio "Las Palmeras" </string>
-    <string name="menu_dat"> Información Personal </string>
-    <string name="menu_datM"> INFORMACION PERSONAL </string>
-    <string name="menu_amb"> Ambientes Compartidos </string>
-    <string name="menu_ambM"> AMBIENTES COMPARTIDOS</string>
-    <string name="menu_obl"> Obligaciones financieras </string>
-    <string name="luz"> LUZ </string>
+    <string name="app_name">CondominApp</string>
 
-    <string name="reserva_de_piscina"><u>RESERVA DE PISCINA</u></string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_porteria__principal">Condominio</string>
+    <string name="title_activity_porteria__nueva_visita">Nueva Visita</string>
 
+    <string-array name="spTipoVis">
+        <item>Otro</item>
+        <item>Supermercado</item>
+        <item>Farmacia</item>
+        <item>Restaurante</item>
+        <item>Amigos</item>
+        <item>Tecnico</item>
+        <item>Albañil</item>
+        <item>Fontanero</item>
+    </string-array>
+
+    <string-array name="spLugar">
+        <item>Barbacoa</item>
+        <item>Salon de Fiesta</item>
+        <item>Piscina</item>
+        <item>Cancha de Voley</item>
+        <item>Cancha de Tenis</item>
+        <item>Cancha de Footebol</item>
+        <item>Local Cubierto</item>
+    </string-array>
+
+    <string-array name="spPeriodo">
+        <item>Mañana</item>
+        <item>Tarde</item>
+        <item>Noche</item>
+    </string-array>
+
+    <string-array name="spAcompanhantesVis">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="title_activity_lista_visita">Lista de visitantas</string>
+    <string name="title_activity_porteria_borrar">Eliminar Visita</string>
+    <string name="title_activity_registro__princial">Registro</string>
+    <string name="title_activity_registro_persona">Registro de Persona</string>
+    <string name="title_activity_registro_veiculo">Registro de Vehiculo</string>
+    <string name="title_activity_listar_personas">Lista de Personas</string>
+    <string name="title_activity_lista__veiculos">Lista de Vehiculos</string>
+    <string name="title_activity_notificacion__principal">Notificaciones</string>
+    <string name="title_activity_notificacion_nueva">Registrar Noticacion</string>
+    <string name="title_activity_lista_notificacion">Lista de Notificaciones</string>
+    <string name="title_activity_notificacion_borrar">Eliminar Notificaciones</string>
+    <string name="title_activity_reserva__principal">Reservas</string>
+    <string name="title_activity_reserva_nueva">Registro de Reserva</string>
+    <string name="title_activity_testedata">Datos de Prueba</string>
+    <string name="title_activity_teste_calendario">testeCalendario</string>
+    <string name="title_activity_lista_reserva">Lista de Reservas</string>
+    <string name="title_activity_inicializacion">Portero Admin</string>
+    <string name="title_activity_login_sistema">Login</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
