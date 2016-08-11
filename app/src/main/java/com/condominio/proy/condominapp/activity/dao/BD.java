@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class BD extends SQLiteOpenHelper {
 
     private static String dbName = "condominio.db";
-    private static String sqlporteria = "CREATE TABLE IF NOT EXISTS[porteria] ([id] INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,[tipo] VARCHAR(20) NOT NULL,[nombre] VARCHAR(100),[observacion] VARCHAR(100),[data] VARCHAR(20),[hora] VARCHAR(10),[acompanantes] INTEGER, [status] INTEGER);";
+    private static String sqlporteria = "CREATE TABLE IF NOT EXISTS[porteria] ([id] INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,[tipo] VARCHAR(20) NOT NULL,[nombre] VARCHAR(100),[observacion] VARCHAR(100),[data] VARCHAR(20),[hora] VARCHAR(10),[acompanhantes] INTEGER, [status] INTEGER);";
     private static String sqlpersona = "CREATE TABLE IF NOT EXISTS[persona] ([_id] INTEGER PRIMARY KEY AUTOINCREMENT, [nombre] VARCHAR(50), [bloco_ap] VARCHAR(20), [sexo] CHAR(1), [status] CHAR(1), [veiculo] CHAR(1));";
     private static String sqlveiculo = "CREATE TABLE IF NOT EXISTS[veiculo] ([_id] INTEGER PRIMARY KEY AUTOINCREMENT, [tipo] VARCHAR(10), [marca] VARCHAR(20), [modelo] VARCHAR(20), [color] VARCHAR(20), [placa] VARCHAR(10), [id_propietario] INTEGER CONSTRAINT [fk_propietario] REFERENCES [personaO]([_id]));";
     private static String sqlnotificacion = "CREATE TABLE IF NOT EXISTS[notificacion] ([_id] INTEGER PRIMARY KEY AUTOINCREMENT, [id_persona] INTEGER CONSTRAINT [fk_persona] REFERENCES [personaO]([_id]), [descripcion] VARCHAR(50), [data_hora] DATE);";

@@ -62,7 +62,7 @@ public class Porteria_NuevaVisita extends ActionBarActivity {
 
                 porteriaDAO dao = new porteriaDAO(getBaseContext());
                 if (dao.insert(vo)) {
-                    Toast.makeText(getBaseContext(), txtNombre.getText().toString() + " Cadastrado com sucesso!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), txtNombre.getText().toString() + " Registro con Exito!", Toast.LENGTH_SHORT).show();
                     finish();
                 }
             }

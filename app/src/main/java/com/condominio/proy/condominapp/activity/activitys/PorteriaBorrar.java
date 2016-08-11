@@ -40,7 +40,7 @@ public class PorteriaBorrar extends Activity {
             public void onClick(View view) {
                 AlertDialog.Builder msg = new AlertDialog.Builder(PorteriaBorrar.this);
                 msg.setMessage("¿Quieres eliminar esta visita ?");
-                msg.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
+                msg.setPositiveButton("SI", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         if (dao.delete(vo)) {
@@ -59,7 +59,7 @@ public class PorteriaBorrar extends Activity {
             public void onClick(View view) {
                 AlertDialog.Builder msg = new AlertDialog.Builder(PorteriaBorrar.this);
                 msg.setMessage("¿ Desea finalizar esta visita ?");
-                msg.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
+                msg.setPositiveButton("SI", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         if (dao.delete(vo)) {

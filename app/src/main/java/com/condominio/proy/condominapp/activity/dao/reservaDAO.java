@@ -15,7 +15,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by glerison on 23/07/2016.
+ * Created by lazar on 23/07/2016.
  */
 public class reservaDAO {
 
@@ -50,7 +50,7 @@ public class reservaDAO {
         ContentValues ctv = new ContentValues();
         ctv.put("local", vo.getLocal());
         ctv.put("data", Date.parse(vo.getData().toString()));
-        ctv.put("id_pessoa", vo.getId_persona());
+        ctv.put("id_persona", vo.getId_persona());
         ctv.put("periodo", vo.getPeriodo());
 
 

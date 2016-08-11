@@ -47,7 +47,7 @@ public class veiculoDAO {
         SQLiteDatabase db = new BD(ctx).getWritableDatabase();
 
         ContentValues ctv = new ContentValues();
-        ctv.put("id_proprietario", vo.getId_propietario());
+        ctv.put("id_propietario", vo.getId_propietario());
         ctv.put("cor", vo.getCor());
         ctv.put("marca", vo.getMarca());
         ctv.put("modelo", vo.getModelo());

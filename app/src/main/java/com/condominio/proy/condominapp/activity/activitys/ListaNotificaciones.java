@@ -15,7 +15,7 @@ public class ListaNotificaciones extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // setContentView(R.layout.lay_lista_notificacoes);
+        // setContentView(R.layout.lay_lista_notificaciones);
     }
 
     @Override

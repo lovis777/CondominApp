@@ -53,7 +53,7 @@ public class porteriaDAO {
         ctv.put("observacao", vo.getObservacion());
         ctv.put("data", vo.getData());
         ctv.put("hora", vo.getHora());
-        ctv.put("acompanhates", vo.getAcompanhantes());
+        ctv.put("acompanhantes", vo.getAcompanhantes());
         ctv.put("status", vo.getStatus());
 
         return (db.update(table_name, ctv, "id=?", new String[]{vo.getId().toString()}) > 0);

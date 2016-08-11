@@ -25,7 +25,7 @@ public class Lista_visita extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         porteriaO vo = (porteriaO)l.getAdapter().getItem(position);
         Toast.makeText(getBaseContext(), vo.getId().toString(), Toast.LENGTH_SHORT).show();
-        startActivity(new Intent("EdicaoVisita").putExtra("codigo", vo.getId()));
+        startActivity(new Intent("EditaVisita").putExtra("codigo", vo.getId()));
 
     }
 
