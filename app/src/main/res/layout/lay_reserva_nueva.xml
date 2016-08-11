@@ -1,71 +1,92 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/background"
     tools:context="com.condominio.proy.condominapp.activity.activitys.ReservaNueva">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/cordotexto"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Nombre"
-        android:id="@+id/txtNombreRes" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spNombreRes" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/cordotexto"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Lugar"
-        android:id="@+id/txtLocalRes" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spLocalRes" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/cordotexto"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nombre"
+                android:id="@+id/txtNombreRes" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Fecha de Reserva"
-        style="@style/cordotexto"
-        android:id="@+id/textView13" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spNombreRes" />
 
-    <DatePicker
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:calendarViewShown="false"
-        style="@style/cordotexto"
-        android:id="@+id/dataRes"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/cordotexto"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lugar"
+                android:id="@+id/txtLocalRes" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Periodo da Reserva"
-        android:id="@+id/txtPeriodoRes"
-        style="@style/cordotexto"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spLocalRes" />
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spPeriodoRes" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Fecha de Reserva"
+                style="@style/cordotexto"
+                android:id="@+id/textView13" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Registrar"
-        android:background="@color/accentColor"
-        style="@style/cordotexto"
-        android:id="@+id/btnRegistrarRes" />
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                style="@style/cordotexto"
+                android:id="@+id/dataRes"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Periodo da Reserva"
+                android:id="@+id/txtPeriodoRes"
+                style="@style/cordotexto"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spPeriodoRes" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:text="Registrar"
+                android:background="@color/accentColor"
+                style="@style/cordotexto"
+                android:id="@+id/btnRegistrarRes" />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
 
 </LinearLayout>
