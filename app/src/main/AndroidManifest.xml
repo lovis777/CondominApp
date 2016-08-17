@@ -63,13 +63,14 @@
         <activity
             android:name=".activity.activitys.ReservaNueva"
             android:label="@string/title_activity_reserva_nueva"></activity>
+        <activity
+            android:name=".activity.activitys.ListaReserva"
+            android:label="@string/title_activity_lista_reserva"></activity>
 
         <activity
             android:name=".activity.activitys.testeCalendario"
             android:label="@string/title_activity_teste_calendario"></activity>
-        <activity
-            android:name=".activity.activitys.ListaReserva"
-            android:label="@string/title_activity_lista_reserva"></activity>
+
         <activity
             android:name=".activity.activitys.Inicializacion"
             android:label="@string/title_activity_inicializacion"

@@ -66,7 +66,7 @@ public class NotificacionNueva extends ActionBarActivity {
 
                 notificacionDAO daoNot = new notificacionDAO(getBaseContext());
                 if (daoNot.insert(vo)) {
-                    Toast.makeText(getBaseContext(), "Sucesso !", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "Exito !", Toast.LENGTH_SHORT).show();
                     finish();
                 }
             }

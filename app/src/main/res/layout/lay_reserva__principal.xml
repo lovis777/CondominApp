@@ -10,7 +10,7 @@
     tools:context="com.condominio.proy.condominapp.activity.activitys.Reserva_Principal">
 
     <LinearLayout
-        android:id="@+id/LinearLayoutListaNot"
+        android:id="@+id/LinearLayoutListaRes"
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:gravity="center_horizontal"
@@ -31,11 +31,7 @@
             android:singleLine="false"
             />
 
-
-
     </LinearLayout>
-
-
 
     <ListView
         android:layout_width="match_parent"

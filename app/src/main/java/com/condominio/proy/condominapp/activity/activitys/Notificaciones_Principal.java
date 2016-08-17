@@ -40,7 +40,7 @@ public class Notificaciones_Principal extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        // Inflate the menu; esto agrega elementos a la barra de acción si está presente.
         getMenuInflater().inflate(R.menu.menu_notificacion_principal, menu);
         return true;
     }

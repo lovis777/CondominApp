@@ -45,7 +45,7 @@
         <item>9</item>
         <item>10</item>
     </string-array>
-    <string name="title_activity_lista_visita">Lista de visitantas</string>
+    <string name="title_activity_lista_visita">Lista de visitantes</string>
     <string name="title_activity_porteria_borrar">Eliminar Visita</string>
     <string name="title_activity_registro__princial">Registro</string>
     <string name="title_activity_registro_persona">Registro de Persona</string>

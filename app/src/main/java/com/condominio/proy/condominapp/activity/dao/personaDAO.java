@@ -12,7 +12,7 @@ import java.util.List;
 
 
 /**
- * Created by glerison on 13/05/2015.
+ * Created by lazar on 13/07/2016.
  */
 public class personaDAO {
 
@@ -112,7 +112,7 @@ public class personaDAO {
         try {
             SQLiteDatabase db = new BD(ctx).getWritableDatabase();
 
-            Cursor rs = db.rawQuery("select nome from persona where veiculo = 'S'", null);
+            Cursor rs = db.rawQuery("select nombre from persona where veiculo = 'S'", null);
             if(rs != null && rs.getCount() != 0){
                 rs.moveToFirst();
 

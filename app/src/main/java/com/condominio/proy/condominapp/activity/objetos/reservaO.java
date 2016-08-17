@@ -3,7 +3,7 @@ package com.condominio.proy.condominapp.activity.objetos;
 import java.util.Date;
 
 /**
- * Created by glerison on 03/08/2016.
+ * Created by lazar on 03/08/2016.
  */
 public class reservaO {
 

@@ -48,8 +48,8 @@ public class AdapterNotificacion extends BaseAdapter{
 
         TextView txvDataNot = (TextView)v.findViewById(R.id.txvDataNot);
         txvDataNot.setText("Data: "+vo.getData());
-        TextView txvNotDescricao = (TextView)v.findViewById(R.id.txvNotDescripcion);
-        txvNotDescricao.setText(vo.getDescripcion());
+        TextView txvNotDescripcion = (TextView)v.findViewById(R.id.txvNotDescripcion);
+        txvNotDescripcion.setText(vo.getDescripcion());
         return v;
     }
 }

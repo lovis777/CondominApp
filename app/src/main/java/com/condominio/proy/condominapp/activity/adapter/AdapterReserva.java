@@ -46,11 +46,7 @@ public class AdapterReserva extends BaseAdapter {
 
         LayoutInflater layout = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = layout.inflate(R.layout.lay_lista_reserva, null);
-        /*
-        personaDAO daopes = new personaDAO(ctx);
-        daopes.getById(vo.getId_persona());
-        personaO vopes = new personaO();
-        */
+
         TextView txtNomeLisRes = (TextView) v.findViewById(R.id.txvNombreLisRes);
         txtNomeLisRes.setText("Nombre: " + vo.getId_persona());
         TextView txtLocalLisRes = (TextView) v.findViewById(R.id.txvLocalLisRes);
